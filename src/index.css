@@ -8,35 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 60 30% 97%;
+    --foreground: 130 25% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 60 30% 99%;
+    --card-foreground: 130 25% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 60 30% 99%;
+    --popover-foreground: 130 25% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 140 40% 24%;
+    --primary-foreground: 60 30% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 90 30% 88%;
+    --secondary-foreground: 140 40% 18%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 80 20% 92%;
+    --muted-foreground: 130 12% 38%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 55% 55%;
+    --accent-foreground: 60 30% 99%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 60 30% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 90 20% 82%;
+    --input: 90 20% 82%;
+    --ring: 140 40% 24%;
 
-    --radius: 0.5rem;
+    --river: 195 55% 42%;
+    --leaf: 100 35% 45%;
+    --bark: 28 30% 30%;
+    --sand: 38 45% 88%;
+
+    --gradient-hero: linear-gradient(180deg, hsl(140 40% 18% / 0.15), hsl(140 50% 8% / 0.75));
+    --gradient-leaf: linear-gradient(135deg, hsl(140 40% 24%), hsl(100 35% 45%));
+    --shadow-soft: 0 10px 40px -15px hsl(140 40% 18% / 0.25);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
