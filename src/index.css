@@ -108,7 +108,34 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
   }
+
+  h1, h2, h3, h4 {
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-leaf {
+    background: var(--gradient-leaf);
+  }
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  .text-river { color: hsl(var(--river)); }
+  .text-leaf { color: hsl(var(--leaf)); }
+  .bg-leaf { background-color: hsl(var(--leaf)); }
+  .bg-river { background-color: hsl(var(--river)); }
+  .bg-sand { background-color: hsl(var(--sand)); }
 }
